@@ -1,6 +1,6 @@
-package com.exxeta.correomqtt.plugin.format;
+package org.correomqtt.plugin.format;
 
-import com.exxeta.correomqtt.plugin.manager.PermissionPlugin;
+import org.correomqtt.plugin.manager.PermissionPlugin;
 import org.pf4j.PluginWrapper;
 
 import java.security.Permissions;
