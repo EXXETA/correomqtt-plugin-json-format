@@ -1,6 +1,6 @@
-package com.exxeta.correomqtt.plugin.format;
+package org.correomqtt.plugin.format;
 
-import com.exxeta.correomqtt.plugin.spi.DetailViewFormatHook;
+import org.correomqtt.plugin.spi.DetailViewFormatHook;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
