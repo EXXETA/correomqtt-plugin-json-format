@@ -16,7 +16,7 @@
 
         <plugin.id>json-format-plugin</plugin.id>
         <plugin.class>org.correomqtt.plugin.format.JsonFormatPlugin</plugin.class>
-        <plugin.version>0.0.2</plugin.version>
+        <plugin.version>0.0.3</plugin.version>
         <plugin.provider>EXXETA AG</plugin.provider>
         <plugin.description>Formats messages into readable JSON</plugin.description>
         <plugin.requires />
