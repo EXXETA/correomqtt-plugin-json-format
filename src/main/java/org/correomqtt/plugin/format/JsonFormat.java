@@ -88,7 +88,7 @@ public class JsonFormat implements DetailViewFormatHook {
             objectMapper.configure(MapperFeature.CAN_OVERRIDE_ACCESS_MODIFIERS, false);
             jsonObject = objectMapper.readValue(text, Object.class);
         } catch (IOException e) {
-            LOGGER.debug("JSON could not be parsed. ", e);
+            LOGGER.trace("JSON could not be parsed. ", e);
             return null;
         }
         return jsonObject;
@@ -105,7 +105,7 @@ public class JsonFormat implements DetailViewFormatHook {
             objectMapper.configure(MapperFeature.CAN_OVERRIDE_ACCESS_MODIFIERS, false);
             return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(getParsedJsonObject());
         } catch (JsonProcessingException e) {
-            LOGGER.debug("Could not write pretty JSON. ", e);
+            LOGGER.trace("Could not write pretty JSON. ", e);
             return text;
         }
     }
